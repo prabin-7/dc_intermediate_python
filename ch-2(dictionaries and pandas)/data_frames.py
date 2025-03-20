@@ -21,4 +21,9 @@ if __name__ == '__main__':
     cars.index = row_labels
     # Print cars
     print(cars)   #columsn of cars can be of different datatypes which is not possible in numpy arrays
+
+    # cars = pd.read_csv('cars.csv', index_col = 0)  index_col = 0 set so that the headers of columns of the dataframe donot confuse the first null element i.e. ,col1,col2 and unnammed =0
+
+    # Print out cars
+    print(cars)
    
