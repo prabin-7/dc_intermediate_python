@@ -28,3 +28,5 @@ Scale the Population Data: Divide the population values by a large number (e.g.,
 Add Transparency: Use the alpha parameter in plt.scatter() to add transparency to the markers, especially if there is significant overlap.
 Add a Legend: Include a legend that explains the size scaling of the markers.
 Consider Color Mapping: If you have additional data (e.g., continent), consider using color to represent that information.'''
+
+# plt.scatter(x = gdp_cap, y = life_exp, s = np.array(pop) * 2, c = col, alpha = 0.8)
